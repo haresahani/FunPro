@@ -45,6 +45,17 @@ h1 {
 
 #qualitySelector,
 #claritySlider {
+    
+    font-size: 24px; /* Increase font size */
+    padding: 12px 16px; /* Increase padding for a bigger button */
+    background-color: #ffb3b3; /* Ensure the background color remains consistent */
+    color: #fff; /* Keep the text color white */
+    border: none; /* Keep border styling */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the dropdown */
+    width: 200px; /* Set a specific width */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+
     font-size: 18px;
     padding: 8px;
     background-color: #ffb3b3;
@@ -53,6 +64,19 @@ h1 {
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.slider-label {
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px; /* Space between the labels and slider */
+}
+
 
 #imageDisplay {
     width: 80%;
