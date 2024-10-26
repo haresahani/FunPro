@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>See Our Love Grow Clearer</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- You can add this font link if you use "Pacifico" for the header -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
 </head>
 <body>
+    <div class="heart-rain"></div>
     <div class="container">
-        <h1>See Your Love Grow Clearer</h1>
-        <select id="qualitySelector">
-            <option value="Select">Select</option>
-            <option value="144p">144p</option>
-            <option value="240p">240p</option>
-            <option value="360p">360p</option>
-            <option value="480p">480p</option>
-            <option value="720p">720p</option>
-            <option value="1080p">1080p</option>
-            <option value="1440p">1440p</option>
-        </select>
-        <img id="imageDisplay" src="images/heart_144p.jpg">
+        <h1>Uncovering Your True Self</h1>
+        
+        <!-- Clarity Slider -->
+        <label for="claritySlider">Love Clarity</label>
+        <input type="range" id="claritySlider" min="1" max="7" value="1">
+        
+        <!-- Image Display -->
+        <img id="imageDisplay" src="images/144p.jpeg" alt="Love Clarity Image">
+        
+        <!-- Love Message Display -->
+        <p id="loveMessage" class="message">😜🤭🙈</p>
     </div>
+
+    <!-- Birthday Wish -->
+    <div class="birthday-wish">
+        <p>Happy Birthday, Rohini! On your special day, I just want you to know how much you’re appreciated. May this year be your best yet, filled with love and happiness!</p>
+    </div>
+    
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
