@@ -4,6 +4,7 @@ body {
     text-align: center;
     background: linear-gradient(to right, #ff9a9e, #fad0c4);
     color: #333;
+    overflow-x: hidden;
 }
 
 /* Container for the heart rain */
@@ -38,24 +39,20 @@ body {
 
 
 h1 {
-    font-family: 'Pacifico', cursive; /* Load Google font for this */
+    font-family: 'Pacifico', cursive;
     color: #d81b60;
     margin-bottom: 20px;
 }
 
+#qualitySelector select {
+    font-family: 'Great Vibes', cursive;
+}
+
 #qualitySelector,
 #claritySlider {
-    
-    font-size: 24px; /* Increase font size */
-    padding: 12px 16px; /* Increase padding for a bigger button */
-    background-color: #ffb3b3; /* Ensure the background color remains consistent */
-    color: #fff; /* Keep the text color white */
-    border: none; /* Keep border styling */
-    border-radius: 5px; /* Rounded corners */
-    margin-bottom: 20px; /* Space below the dropdown */
-    width: 200px; /* Set a specific width */
-    cursor: pointer; /* Change cursor to pointer for better UX */
-
+    font-family: 'Great Vibes', cursive;
+    width: 200px;
+    cursor: pointer;
     font-size: 18px;
     padding: 8px;
     background-color: #ffb3b3;
@@ -73,8 +70,8 @@ h1 {
 }
 
 .slider-label {
-    font-size: 24px; /* Adjust size as needed */
-    margin: 0 10px; /* Space between the labels and slider */
+    font-size: 24px;
+    margin: 0 10px;
 }
 
 
@@ -114,14 +111,20 @@ p.message {
     }
 }
 
-
 .birthday-wish {
+    font-family: 'Great Vibes', cursive;
     margin-top: 20px;
-    font-size: 18px;
-    color: #ff6b81; /* Use a color that fits your theme */
+    font-size: 15px;
+    color: #ff6b81;
     text-align: center;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    color: #ff6b81;
+    margin-top: 20px;
+    font-size: 10px;
 }
