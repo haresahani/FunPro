@@ -52,11 +52,11 @@ function updateImageAndMessage(quality) {
             loveMessage.textContent = "Now I can see the real you—thoughtful, genuine, and inspiring.";
             break;
         case '1440p':
-            imagePath = 'images/her_image_1440p.jpg';
+            imagePath = 'images/her_1440p.jpg';
             loveMessage.textContent = "At last, perfect clarity. Every quality that makes you incredible is right here.";
             break;
         default:
-            imagePath = 'images/heart_144p.jpg';
+            imagePath = 'https://i.pinimg.com/originals/82/cc/10/82cc102994a5cb734806f1d8bd9e988d.jpg';
             loveMessage.textContent = "Select a quality to see yourself.";
     }
 
